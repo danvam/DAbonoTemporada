@@ -1,0 +1,35 @@
+{
+  "abonoBlockchainApp": {
+    "temporada": {
+      "home": {
+        "title": "Temporadas",
+        "createLabel": "Create a new Temporada",
+        "createOrEditLabel": "Create or edit a Temporada",
+        "notFound": "No Temporadas found"
+      },
+      "created": "A new Temporada is created with identifier {{ param }}",
+      "updated": "A Temporada is updated with identifier {{ param }}",
+      "deleted": "A Temporada is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Temporada {{ id }}?"
+      },
+      "detail": {
+        "title": "Temporada"
+      },
+      "faseEtapa": "Fase Etapa",
+      "nombre": "Nombre",
+      "actualIdLocalidad": "Actual Id Localidad",
+      "actualIdEspectaculo": "Actual Id Espectaculo",
+      "actualIdAbono": "Actual Id Abono",
+      "precioBase": "Precio Base",
+      "tiposLocalidad": "Tipos Localidad",
+      "factorIncrementoTipo": "Factor Incremento Tipo",
+      "porcentajeAlquiler": "Porcentaje Alquiler",
+      "dineroAbono": "Dinero Abono",
+      "direccion": "Dirección",
+      "abi": "Abi",
+      "abiDAbono": "Abi DAbono",
+      "transitar": "Cambiar de fase"
+    }
+  }
+}

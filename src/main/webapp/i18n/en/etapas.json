@@ -1,0 +1,11 @@
+{
+  "abonoBlockchainApp": {
+    "Etapas": {
+      "null": "",
+      "CREACION": "CREACION",
+      "ABONO": "ABONO",
+      "INICIADA": "INICIADA",
+      "FINALIZADA": "FINALIZADA"
+    }
+  }
+}

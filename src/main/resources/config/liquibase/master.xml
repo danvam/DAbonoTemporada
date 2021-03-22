@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd">
+
+    <property name="now" value="now()" dbms="h2"/>
+    <property name="now" value="now()" dbms="mysql, mariadb"/>
+
+    <property name="floatType" value="float4" dbms="postgresql, h2"/>
+    <property name="floatType" value="float" dbms="mysql, oracle, mssql, mariadb"/>
+    <property name="clobType" value="clob" dbms="h2"/>
+    <property name="clobType" value="clob" dbms="mysql, oracle, mssql, mariadb, postgresql"/>
+    <property name="uuidType" value="varchar(36)" dbms="h2, mysql, mariadb"/>
+
+    <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210319181451_added_entity_Temporada.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210319181551_added_entity_Localidad.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210319181651_added_entity_Espectaculo.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210319181751_added_entity_Abono.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210319181851_added_entity_CompraAbono.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210319181951_added_entity_AlquilaAbono.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210319182051_added_entity_ApplicationUser.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210321224630_added_entity_TransferirTokens.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210321224730_added_entity_AprobarTokens.xml" relativeToChangelogFile="false"/>
+    <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20210319181551_added_entity_constraints_Localidad.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210319181651_added_entity_constraints_Espectaculo.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210319181751_added_entity_constraints_Abono.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210319181851_added_entity_constraints_CompraAbono.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210319181951_added_entity_constraints_AlquilaAbono.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210319182051_added_entity_constraints_ApplicationUser.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210321224630_added_entity_constraints_TransferirTokens.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210321224730_added_entity_constraints_AprobarTokens.xml" relativeToChangelogFile="false"/>
+    <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
+    <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
+</databaseChangeLog>

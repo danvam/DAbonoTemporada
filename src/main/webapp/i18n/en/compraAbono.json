@@ -1,0 +1,23 @@
+{
+  "abonoBlockchainApp": {
+    "compraAbono": {
+      "home": {
+        "title": "Compra Abonos",
+        "createLabel": "Create a new Compra Abono",
+        "createOrEditLabel": "Create or edit a Compra Abono",
+        "notFound": "No Compra Abonos found"
+      },
+      "created": "A new Compra Abono is created with identifier {{ param }}",
+      "updated": "A Compra Abono is updated with identifier {{ param }}",
+      "deleted": "A Compra Abono is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Compra Abono {{ id }}?"
+      },
+      "detail": {
+        "title": "Compra Abono"
+      },
+      "localidad": "Localidad",
+      "internalUser": "Application User"
+    }
+  }
+}

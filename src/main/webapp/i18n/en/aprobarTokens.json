@@ -1,0 +1,26 @@
+{
+  "abonoBlockchainApp": {
+    "aprobarTokens": {
+      "home": {
+        "title": "Desploquear Cuenta o Aprobar Tokens",
+        "createLabel": "Desploquear Cuenta o Aprobar Tokens",
+        "createOrEditLabel": "Desploquear Cuenta o  Aprobar Tokens",
+        "notFound": "No Aprobar Tokens found"
+      },
+      "created": "A new Aprobar Tokens is created with identifier {{ param }}",
+      "updated": "A Aprobar Tokens is updated with identifier {{ param }}",
+      "deleted": "A Aprobar Tokens is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Aprobar Tokens {{ id }}?"
+      },
+      "detail": {
+        "title": "Desploquear Cuenta o Aprobar Tokens"
+      },
+      "cantidad": "Cantidad",
+      "password": "Password",
+      "operation": "Operation",
+      "temporada": "Temporada",
+      "applicationUser": "Application User"
+    }
+  }
+}

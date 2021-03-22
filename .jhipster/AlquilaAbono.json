@@ -1,0 +1,40 @@
+{
+  "name": "AlquilaAbono",
+  "fields": [],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "localidad",
+      "otherEntityRelationshipName": "alquilaAbono",
+      "relationshipName": "localidad",
+      "otherEntityField": "id",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "espectaculo",
+      "otherEntityRelationshipName": "alquilaAbono",
+      "relationshipName": "espectaculo",
+      "otherEntityField": "id",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "applicationUser",
+      "otherEntityRelationshipName": "alquilaAbono",
+      "relationshipName": "internalUser",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20210319181951",
+  "entityTableName": "alquila_abono",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": ["AbonoBlockchain"]
+}

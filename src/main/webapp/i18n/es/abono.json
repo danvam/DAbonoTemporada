@@ -1,0 +1,27 @@
+{
+  "abonoBlockchainApp": {
+    "abono": {
+      "home": {
+        "title": "Abonos",
+        "createLabel": "Crear nuevo Abono",
+        "createOrEditLabel": "Editar fechas disponible para Alquiler",
+        "notFound": "Ningún Abonos encontrado"
+      },
+      "created": "Un nuevo Abono ha sido creado con el identificador {{ param }}",
+      "updated": "Un Abono ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Abono ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Abono {{ id }}?"
+      },
+      "detail": {
+        "title": "Abono"
+      },
+      "fechaAlquilerDesde": "Fecha Alquiler Desde",
+      "fechaAlquilerHasta": "Fecha Alquiler Hasta",
+      "direccion": "Direccion",
+      "idLocalidad": "Id Localidad",
+      "internalUser": "Application User",
+      "temporada": "Temporada"
+    }
+  }
+}

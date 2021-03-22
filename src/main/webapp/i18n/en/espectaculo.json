@@ -1,0 +1,26 @@
+{
+  "abonoBlockchainApp": {
+    "espectaculo": {
+      "home": {
+        "title": "Espectaculos",
+        "createLabel": "Create a new Espectaculo",
+        "createOrEditLabel": "Create or edit a Espectaculo",
+        "notFound": "No Espectaculos found"
+      },
+      "created": "A new Espectaculo is created with identifier {{ param }}",
+      "updated": "A Espectaculo is updated with identifier {{ param }}",
+      "deleted": "A Espectaculo is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Espectaculo {{ id }}?"
+      },
+      "detail": {
+        "title": "Espectaculo"
+      },
+      "idEspectaculo": "Id Espectaculo",
+      "fechaEspectaculo": "Fecha Espectaculo",
+      "nombre": "Nombre",
+      "simbolo": "Símbolo",
+      "temporada": "Temporada"
+    }
+  }
+}

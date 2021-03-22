@@ -1,0 +1,26 @@
+{
+  "abonoBlockchainApp": {
+    "localidad": {
+      "home": {
+        "title": "Localidads",
+        "createLabel": "Crear nuevo Localidad",
+        "createOrEditLabel": "Crear o editar Localidad",
+        "notFound": "Ningún Localidads encontrado"
+      },
+      "created": "Un nuevo Localidad ha sido creado con el identificador {{ param }}",
+      "updated": "Un Localidad ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Localidad ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Localidad {{ id }}?"
+      },
+      "detail": {
+        "title": "Localidad"
+      },
+      "idLocalidad": "Id Localidad",
+      "tipoLocalidad": "Tipo Localidad",
+      "nombre": "Nombre",
+      "simbolo": "Símbolo",
+      "temporada": "Temporada"
+    }
+  }
+}

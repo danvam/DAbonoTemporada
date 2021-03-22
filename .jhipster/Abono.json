@@ -1,0 +1,49 @@
+{
+  "name": "Abono",
+  "fields": [
+    {
+      "fieldName": "fechaAlquilerDesde",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "fechaAlquilerHasta",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "direccion",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "idLocalidad",
+      "fieldType": "Long"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "applicationUser",
+      "otherEntityRelationshipName": "abono",
+      "relationshipName": "internalUser",
+      "otherEntityField": "id",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "temporada",
+      "otherEntityRelationshipName": "abono",
+      "relationshipName": "temporada",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20210319181751",
+  "entityTableName": "abono",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": ["AbonoBlockchain"]
+}

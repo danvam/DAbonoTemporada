@@ -1,0 +1,40 @@
+{
+  "name": "AprobarTokens",
+  "fields": [
+    {
+      "fieldName": "cantidad",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "password",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "temporada",
+      "otherEntityRelationshipName": "aprobarTokens",
+      "relationshipName": "temporada",
+      "otherEntityField": "id"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "applicationUser",
+      "otherEntityRelationshipName": "aprobarTokens",
+      "relationshipName": "applicationUser",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20210321224730",
+  "entityTableName": "aprobar_tokens",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

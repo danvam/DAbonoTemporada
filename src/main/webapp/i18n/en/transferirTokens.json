@@ -1,0 +1,26 @@
+{
+  "abonoBlockchainApp": {
+    "transferirTokens": {
+      "home": {
+        "title": "Desploquear Cuenta o Transferir Tokens",
+        "createLabel": "Desploquear Cuenta o Transferir Tokens",
+        "createOrEditLabel": "Desploquear Cuenta o Transferir Tokens",
+        "notFound": "No Transferir Tokens found"
+      },
+      "created": "A new entity is created with identifier {{ param }}",
+      "updated": "A Transferir Tokens is updated with identifier {{ param }}",
+      "deleted": "A Transferir Tokens is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Transferir Tokens {{ id }}?"
+      },
+      "detail": {
+        "title": "Operation"
+      },
+      "cantidad": "Cantidad",
+      "password": "Password",
+      "operacion": "Operation",
+      "applicationUser": "Application User",
+      "temporada": "Temporada"
+    }
+  }
+}

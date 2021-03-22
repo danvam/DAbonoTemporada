@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd">
+    <!--
+        Added the constraints for entity CompraAbono.
+    -->
+    <changeSet id="20210319181851-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="localidad_id"
+                                 baseTableName="compra_abono"
+                                 constraintName="fk_compra_abono_localidad_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="localidad"/>
+
+        <addForeignKeyConstraint baseColumnNames="internal_user_id"
+                                 baseTableName="compra_abono"
+                                 constraintName="fk_compra_abono_internal_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="application_user"/>
+
+    </changeSet>
+</databaseChangeLog>

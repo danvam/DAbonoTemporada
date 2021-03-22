@@ -1,0 +1,24 @@
+{
+  "abonoBlockchainApp": {
+    "alquilaAbono": {
+      "home": {
+        "title": "Alquila Abonos",
+        "createLabel": "Create a new Alquila Abono",
+        "createOrEditLabel": "Create or edit a Alquila Abono",
+        "notFound": "No Alquila Abonos found"
+      },
+      "created": "A new Alquila Abono is created with identifier {{ param }}",
+      "updated": "A Alquila Abono is updated with identifier {{ param }}",
+      "deleted": "A Alquila Abono is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Alquila Abono {{ id }}?"
+      },
+      "detail": {
+        "title": "Alquila Abono"
+      },
+      "localidad": "Localidad",
+      "espectaculo": "Espectaculo",
+      "internalUser": "Internal User"
+    }
+  }
+}

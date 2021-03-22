@@ -1,0 +1,40 @@
+{
+  "name": "TransferirTokens",
+  "fields": [
+    {
+      "fieldName": "cantidad",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "password",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "applicationUser",
+      "otherEntityRelationshipName": "transferirTokens",
+      "relationshipName": "applicationUser",
+      "otherEntityField": "id"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "temporada",
+      "otherEntityRelationshipName": "transferirTokens",
+      "relationshipName": "temporada",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20210321224630",
+  "entityTableName": "transferir_tokens",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

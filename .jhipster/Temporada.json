@@ -1,0 +1,83 @@
+{
+  "name": "Temporada",
+  "fields": [
+    {
+      "fieldName": "faseEtapa",
+      "fieldType": "Etapas",
+      "fieldValues": "CREACION,ABONO,INICIADA,FINALIZADA"
+    },
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "actualIdLocalidad",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "actualIdEspectaculo",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "actualIdAbono",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "precioBase",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "tiposLocalidad",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "factorIncrementoTipo",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "porcentajeAlquiler",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "dineroAbono",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "direccion",
+      "fieldType": "String",
+      "fieldValidateRules": [
+        "required"
+      ]
+    },
+    {
+      "fieldName": "abi",
+      "fieldType": "String",
+      "fieldValidateRules": [
+        "required",
+        "maxlength"
+      ],
+      "fieldValidateRulesMaxlength": "6000"
+    },
+    {
+      "fieldName": "abiDAbono",
+      "fieldType": "String",
+      "fieldValidateRules": [
+        "required",
+        "maxlength"
+      ],
+      "fieldValidateRulesMaxlength": "6000"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210319181451",
+  "entityTableName": "temporada",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": ["AbonoBlockchain"]
+}

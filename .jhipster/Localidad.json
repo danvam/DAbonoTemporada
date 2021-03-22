@@ -1,0 +1,50 @@
+{
+  "name": "Localidad",
+  "fields": [
+    {
+      "fieldName": "idLocalidad",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "tipoLocalidad",
+      "fieldType": "Long",
+      "fieldValidateRules": [
+        "required"
+      ]
+    },
+    {
+      "fieldName": "nombre",
+      "fieldType": "String",
+      "fieldValidateRules": [
+        "required"
+      ]
+    },
+    {
+      "fieldName": "simbolo",
+      "fieldType": "String",
+      "fieldValidateRules": [
+        "required"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "temporada",
+      "otherEntityRelationshipName": "localidad",
+      "relationshipName": "temporada",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20210319181551",
+  "entityTableName": "localidad",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": ["AbonoBlockchain"]
+}

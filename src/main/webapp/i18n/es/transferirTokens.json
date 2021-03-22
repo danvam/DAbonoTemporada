@@ -1,0 +1,26 @@
+{
+  "abonoBlockchainApp": {
+    "transferirTokens": {
+      "home": {
+        "title": "Desploquear Cuenta o Transferir Tokenss",
+        "createLabel": "Desploquear Cuenta o Transferir Tokens",
+        "createOrEditLabel": "Desploquear Cuenta o Transferir Tokens",
+        "notFound": "Ningún Transferir Tokens encontrado"
+      },
+      "created": "Un nuevo Entidad ha sido creado con el identificador {{ param }}",
+      "updated": "Un Transferir Tokens ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Entidad ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Entidad {{ id }}?"
+      },
+      "detail": {
+        "title": "Operación"
+      },
+      "cantidad": "Cantidad",
+      "password": "Password",
+      "operacion": "Operación",
+      "applicationUser": "Application User",
+      "temporada": "Temporada"
+    }
+  }
+}
